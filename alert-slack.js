@@ -140,4 +140,4 @@ setInterval(function(){
 			alert(“Svensedammen Legesenter is down!!!“);
 			}
 		}
-}, 600000);
+}, 60000);
