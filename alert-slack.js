@@ -3,11 +3,11 @@ var faxes = {66818304: "Son Legekontor",
 	   66818305: "Linderudklinikken",
 	   66818306: "Bjønneslegene"};
 
-var li = document.getElementsByTagName("li");
-for (i=0; i < li.length; i++) {
+var status = document.getElementsByClassName("satus");
+for (i=0; i < status.length; i++) {
 	for (var fax in faxes) {
-		if (li[i].innerHTML.indexOf(fax) != -1){
-			li[i].innerText = faxes[fax] + "\n" + fax;
+		if (status[i].innerHTML.indexOf(fax) != -1){
+			status[i].innerText = faxes[fax] + "\n" + fax;
 		}
 	}
 }
