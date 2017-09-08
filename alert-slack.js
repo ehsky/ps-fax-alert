@@ -1,7 +1,32 @@
 var faxes = {66818304: "Son Legekontor",
 	   66818302: "Høvik Legesenter",
 	   66818305: "Linderudklinikken",
-	   66818306: "Bjønneslegene"};
+	   66818306: "Medico",
+	    66818307: "Bjønneslegene",
+	    66818308: "Ski Plexus",
+	    66818308: "Bjørnsletta",
+	    66818310: "Gaula",
+	    66818311: "Gaulset",
+	    66818312: "AS Legekontor",
+	    66818312: "Auli",
+	    66818314: "Brunstad",
+	    66818315: "Bryn Senter",
+	    66818316: "Brynklinikken",
+	    66818317: "Sentrum Legekontor Skien",
+	    66818319: "Moelv Legesenter",
+	    66818320: "Ytre Strandvei",
+	    668183823: "Lille Grensen",
+	    668183824: "Mørkved Legesenter",
+	    66818325: "Horten Legesenter",
+	    66818327: "Tomsdalen Legesenter",
+	    66818328: "Utsikten Legesenter",
+	    66818329: "Åsgårdstrand - Sjur Larsen",
+	    66818330: "Sentrum Legekontor Horten",
+	    66818331: "Gloppen",
+	    66818332: "Skansen Legekontor",
+	    66818333: "Brummunddal Legesenter",
+	    66818334: "Mariadasans Legesenter",
+	    66818335: "Kråkerøy Legesenter"};
 
 var li = document.getElementsByClassName("status");
 for (i=0; i < li.length; i++) {
@@ -34,97 +59,6 @@ setInterval(function(){
 		}
 	},2000);
 },3000);
-
-setInterval(function(){
-	var red = document.getElementsByClassName(“red”);
-	for (var i=0; i < red.length; i++) {
-		if (red[i].innerHTML == “66818304") {
-			alert(“Son Legekontor is down!!!“);
-			}
-		if (red[i].innerHTML == “66818302”) {
-			alert(“Høvik Legesenter is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818305”) {
-			alert(“Linderudklinikken is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818306”) {
-			alert(“Medico is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818307”) {
-			alert(“Bjønneslegene is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818308”) {
-			alert(“Ski Plexusklinikken is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818309”) {
-			alert(“Bjørnsletta is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818310”) {
-			alert(“Gaula is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818311”) {
-			alert(“Gulset is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818312”) {
-			alert(“As Legekontoret is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818313”) {
-			alert(“Auli is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818314”) {
-			alert(“Brunstad is down!!!“);
-			}
-		   if (red[i].innerHTML == “66818315”) {
-			alert(“Bryn Senter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818316”) {
-			alert(“Brynklinikken is down!!!“);
-			}
-			if (red[i].innerHTML == “66818317”) {
-			alert(“Sentrum Legekontor Skien is down!!!“);
-			}
-			if (red[i].innerHTML == “66818319”) {
-			alert(“Moelv Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818320”) {
-			alert(“Ytre Strandvei is down!!!“);
-			}
-			if (red[i].innerHTML == “66818323”) {
-			alert(“Lille Grensen is down!!!“);
-			}
-			if (red[i].innerHTML == “66818324”) {
-			alert(“Mørkved Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818325”) {
-			alert(“Horten Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818327”) {
-			alert(“Tromsdalen Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818328”) {
-			alert(“Utsikten Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818329”) {
-			alert(“Åsgårdstrand - Sjur R. Larsen is down!!!“);
-			}
-			if (red[i].innerHTML == “66818330”) {
-			alert(“Sentrum Legekontor Horten is down!!!“);
-			}
-			if (red[i].innerHTML == “66818331”) {
-			alert(“Gloppen is down!!!“);
-			}
-			if (red[i].innerHTML == “66818332”) {
-			alert(“Skansen  Legekontor is down!!!“);
-			}
-			if (red[i].innerHTML == “66818333”) {
-			alert(“Brumunddal Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818334”) {
-			alert(“Mariadasans Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818335”) {
-			alert(“Kråkerøy Legesenter is down!!!“);
-			}
 			if (red[i].innerHTML == “66818336”) {
 			alert(“Kystveien Legesenter is down!!!“);
 			}
