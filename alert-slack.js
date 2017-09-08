@@ -7,7 +7,7 @@ var li = document.getElementsByTagName("li");
 for (i=0; i < li.length; i++) {
 	for (var fax in faxes) {
 		if (li[i].innerHTML.indexOf(fax) != -1){
-			li[i].innerHTML = fax + "\n" + faxes[fax];
+			li[i].innerHTML = faxes[fax] + "\n" + fax;
 		}
 	}
 }
