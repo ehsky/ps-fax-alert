@@ -1,3 +1,31 @@
+var faxes = {66818304: "Son Legekontor",
+	   66818302: "Høvik Legesenter",
+	   66818305: "Linderudklinikken",
+	   66818306: "Bjønneslegene"};
+
+setInterval(function(){
+	setTimeout(function(){
+		var red = document.getElementsByClassName("red");
+		for (i = 0; i < red.length; i++){
+			for (var fax in faxes){
+				if (red[i].innerHTML.indexOf(fax)){
+					red[i].style.backgroundColor="blue";
+				}
+			}
+		}
+	},1000);
+	setTimeout(function(){
+		var red = document.getElementsByClassName("red");
+		for (i = 0; i < red.length; i++){
+			for (var fax in faxes){
+				if (red[i].innerHTML.indexOf(fax)){
+					red[i].style.backgroundColor="red";
+				}
+			}
+		}
+	},2000);
+},3000);
+
 setInterval(function(){
 	var red = document.getElementsByClassName(“red”);
 	for (var i=0; i < red.length; i++) {
