@@ -4,7 +4,7 @@ var faxes = {66818304: "Son Legekontor",
 	   66818306: "Bjønneslegene"};
 
 var li = document.getElementsByClassName("status");
-for (i=0; i < status.length; i++) {
+for (i=0; i < li.length; i++) {
 	for (var fax in faxes) {
 		if (li[i].innerHTML.indexOf(fax) != -1){
 			li[i].innerHTML = faxes[fax] + "\n" + fax;
