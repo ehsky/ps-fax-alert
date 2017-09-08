@@ -45,14 +45,6 @@ var faxes = {66818304: "Son Legekontor",
 	    66818352: "Rosenlund Legesenter",
 	    66818353: "Svensedammen Legesenter"};
 
-var li = document.getElementsByClassName("status");
-for (i=0; i < li.length; i++) {
-	for (var fax in faxes) {
-		if (li[i].innerHTML.indexOf(fax) != -1){
-			li[i].innerHTML = faxes[fax] + "\n" + fax;
-		}
-	}
-}
 
 setInterval(function(){
 	setTimeout(function(){
@@ -61,6 +53,11 @@ setInterval(function(){
 			for (var fax in faxes){
 				if (red[i].innerHTML.indexOf(fax) != -1){
 					red[i].style.backgroundColor="blue";
+					for (var fax in faxes) {
+					if (red[i].innerHTML.indexOf(fax) != -1){
+						red[i].innerHTML = faxes[fax] + "\n" + fax;
+						}
+					}
 				}
 			}
 		}
