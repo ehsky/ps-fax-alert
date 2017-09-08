@@ -3,6 +3,15 @@ var faxes = {66818304: "Son Legekontor",
 	   66818305: "Linderudklinikken",
 	   66818306: "Bjønneslegene"};
 
+var li = document.getElementsByTagName("li");
+for (i=0; i < li.length; i++) {
+	for (var fax in faxes) {
+		if (li[i].innerHTML.indexOf(fax) != -1){
+			li[i].innerHTML = fax + "\n" + faxes[fax];
+		}
+	}
+}
+
 setInterval(function(){
 	setTimeout(function(){
 		var red = document.getElementsByClassName("red");
