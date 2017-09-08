@@ -26,7 +26,24 @@ var faxes = {66818304: "Son Legekontor",
 	    66818332: "Skansen Legekontor",
 	    66818333: "Brummunddal Legesenter",
 	    66818334: "Mariadasans Legesenter",
-	    66818335: "Kråkerøy Legesenter"};
+	    66818335: "Kråkerøy Legesenter",
+	    66818336: "Kystveien Legesenter",
+	    66818337: "Sentrum Legekontor",
+	    66818338: "Kringsjå Legesenter",
+	    66818339: "Legesenter Daivike",
+	    66822140: "Hovfaret",
+	    66818340: "Nordlyslegene",
+	    66818346: "Vestbytorget Legesenter",
+	    66818342: "Legene i Nygaardsgata",
+	    66818343: "Vindafjord Legesenter",
+	    66818344: "Holbergate Legesenter",
+	    66818345: "Utmarkveien Legekontor",
+	    66818347: "Rykkin Legekontor",
+	    66818348: "Brugata Legesenter",
+	    66818349: "Landsbylegene",
+	    66818351: "Fredholt Legesenter",
+	    66818352: "Rosenlund Legesenter",
+	    66818353: "Svensedammen Legesenter"};
 
 var li = document.getElementsByClassName("status");
 for (i=0; i < li.length; i++) {
@@ -59,56 +76,4 @@ setInterval(function(){
 		}
 	},2000);
 },3000);
-			if (red[i].innerHTML == “66818336”) {
-			alert(“Kystveien Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818337”) {
-			alert(“Sentrum Legekontor Skarnes is down!!!“);
-			}
-			if (red[i].innerHTML == “66818338”) {
-			alert(“Kringsjå Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818339”) {
-			alert(“Legesenter Daivike is down!!!“);
-			}
-			if (red[i].innerHTML == “66822140”) {
-			alert(“Hovfaret is down!!!“);
-			}
-			if (red[i].innerHTML == “66818340”) {
-			alert(“Nordlyslegene is down!!!“);
-			}
-			if (red[i].innerHTML == “66818346”) {
-			alert(“Vestbytorget Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818342”) {
-			alert(“Legene i Nygaardsgata is down!!!“);
-			}
-			if (red[i].innerHTML == “66818343”) {
-			alert(“Vindafjord Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818344”) {
-			alert(“Holbergsgate Legesenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818345”) {
-			alert(“Utmarkveien Legekontor is down!!!“);
-			}
-			if (red[i].innerHTML == “66818347”) {
-			alert(“Rykkinn Legekontor is down!!!“);
-			}
-			if (red[i].innerHTML == “66818348”) {
-			alert(“Brugata Legsenter is down!!!“);
-			}
-			if (red[i].innerHTML == “66818349”) {
-			alert(“Landsbylegene is down!!!“);
-			}
-            if (red[i].innerHTML == “66818351”) {
-			alert(“Fredholt Legesenter is down!!!“);
-			}
-        if (red[i].innerHTML == “66818352”) {
-			alert(“Rosenlund Legesenter is down!!!“);
-			}
-        if (red[i].innerHTML == “66818353”) {
-			alert(“Svensedammen Legesenter is down!!!“);
-			}
-		}
-}, 60000);
+
