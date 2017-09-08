@@ -56,6 +56,7 @@ setInterval(function(){
 					for (var fax in faxes) {
 					if (red[i].innerHTML.indexOf(fax) != -1){
 						red[i].innerHTML = faxes[fax] + "\n" + fax;
+						red[i].style.fontSize="x-small";
 						}
 					}
 				}
