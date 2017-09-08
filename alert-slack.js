@@ -8,7 +8,7 @@ setInterval(function(){
 		var red = document.getElementsByClassName("red");
 		for (i = 0; i < red.length; i++){
 			for (var fax in faxes){
-				if (red[i].innerHTML.indexOf(fax)){
+				if (red[i].innerHTML.indexOf(fax) != -1){
 					red[i].style.backgroundColor="blue";
 				}
 			}
@@ -18,7 +18,7 @@ setInterval(function(){
 		var red = document.getElementsByClassName("red");
 		for (i = 0; i < red.length; i++){
 			for (var fax in faxes){
-				if (red[i].innerHTML.indexOf(fax)){
+				if (red[i].innerHTML.indexOf(fax) != -1){
 					red[i].style.backgroundColor="red";
 				}
 			}
